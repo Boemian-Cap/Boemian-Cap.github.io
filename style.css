@@ -1,0 +1,15 @@
+body{font-family:system-ui,"Hiragino Sans","Yu Gothic",sans-serif;margin:0;color:#222;background:#fafaf7;line-height:1.75}
+header{padding:12px 16px;background:#fff;border-bottom:1px solid #e5e5e0}header a{font-weight:700;color:#222;text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:16px}h1{font-size:1.5rem;line-height:1.4}
+.pr{font-size:.8rem;color:#666;background:#f0efe9;padding:6px 10px;border-radius:4px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9rem;background:#fff}
+th,td{border:1px solid #e5e5e0;padding:6px 8px;text-align:left}th,td:not(:nth-child(2)){white-space:nowrap}
+td:nth-child(2){min-width:9em}table .btn{padding:5px 10px;font-size:.8rem}
+.btn{display:inline-block;background:#bf0000;color:#fff;padding:8px 14px;border-radius:6px;text-decoration:none;white-space:nowrap}
+.name a{color:#1a4fa0}footer a{color:#555}
+.static h2{font-size:1.15rem;margin-top:28px}.static table th{white-space:nowrap;background:#f5f5f0}
+.item{background:#fff;border:1px solid #e5e5e0;border-radius:8px;padding:12px 16px;margin:20px 0}.item img{max-width:160px;float:right;margin-left:12px}
+.item::after{content:"";display:block;clear:both}.meta,.name,.note{font-size:.85rem;color:#555}
+footer{font-size:.8rem;color:#666;text-align:center;padding:24px 16px}
+.draftbar{margin:0;padding:8px 16px;background:#fff3cd;color:#664d03;font-size:.85rem;font-weight:700;border-bottom:1px solid #e0c97a}
+ul.list li{margin:8px 0}
