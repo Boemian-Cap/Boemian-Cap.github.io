@@ -108,6 +108,11 @@ table.mini th,table.mini td{border:0;padding:8px 12px}table.mini td{background:v
 .mm li{padding:4px 0;border-bottom:1px dashed var(--line)}.mm li:last-child{border-bottom:0}
 .pros{background:#f0f8fc}.pros b{background:#5bb8dc}.pros li::marker{color:#5bb8dc}
 .cons{background:#fff5f0}.cons b{background:#f4a07a}.cons li::marker{color:#f4a07a}
+.rv{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0 0;background:#fbfcfe}
+.rvh{margin:0 0 6px;font-weight:800;font-size:.9rem;color:var(--brand)}.rvh::before{content:"💬 "}
+.rvb{display:grid;grid-template-columns:1fr 1fr;gap:10px}.rvb b{font-size:.82rem;color:var(--sub)}
+.rvb ul{margin:4px 0 0;padding-left:20px;font-size:.9rem}.rvnone{margin:4px 0 0;font-size:.85rem;color:var(--muted)}.rvn{margin:8px 0 0;font-size:.75rem;color:var(--muted)}
+@media (max-width:560px){.rvb{grid-template-columns:1fr}}
 .totop{text-align:right;font-size:.8rem;margin:10px 0 0}.totop a{color:var(--muted)}.totop a::before{content:"↑ "}
 @media (max-width:560px){.pbox{flex-direction:column;align-items:stretch}.pbox .iimg{width:100%;height:150px}.mm{grid-template-columns:1fr}.pbox .btn{width:100%}}
 /* 運営者の自己紹介（トップページ） */
