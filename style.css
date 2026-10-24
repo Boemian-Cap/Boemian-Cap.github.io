@@ -83,6 +83,39 @@ font-size:.72rem;font-weight:800;display:grid;place-items:center;line-height:1}
 .summary{background:linear-gradient(135deg,var(--soft),#f4f8fd);border:1px solid #cfe0f3;border-radius:var(--radius);padding:20px 22px;margin:28px 0}
 .summary p{margin:.5em 0}.related{margin-top:32px}.related h2{font-size:1.2rem}.related .pcard .thumb{height:120px}
 .related .pcard .thumb img{max-height:100px}
+/* 選び方・目的別の表・目次・商品ボックス・よいところ／気になるところ（guide があるページ） */
+.toc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);margin:18px 0;overflow:hidden}
+.toc summary{cursor:pointer;font-weight:800;padding:12px 18px;background:var(--brand);color:#fff;list-style:none}
+.toc summary::-webkit-details-marker{display:none}.toc summary::after{content:"▼";float:right;font-size:.75em;margin-top:.3em}
+.toc[open] summary::after{content:"▲"}.toc ol{margin:0;padding:10px 18px 14px 34px;font-size:.92rem}.toc ol ol{padding:2px 0 4px 18px;font-size:.86rem}
+.toc a{color:var(--ink);text-decoration:none}.toc a:hover{color:var(--brand-2);text-decoration:underline}
+.cpoint{border-top:1px dashed var(--line);padding:12px 0 4px}.cpoint:first-of-type{border-top:0;padding-top:0}
+.cpoint h3{display:flex;align-items:center;gap:8px;font-size:1.05rem;margin:0 0 4px}.cpoint p{margin:0 0 8px;font-size:.93rem}
+.cn{display:inline-grid;place-items:center;flex:none;width:24px;height:24px;border-radius:6px;background:var(--soft);color:var(--brand);font-size:.8rem;font-weight:800}
+table.mini{border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.88rem;margin:4px 0 6px}
+table.mini th{background:var(--soft);color:var(--brand);white-space:normal;width:38%;font-size:.85rem;border-bottom:1px solid var(--line)}
+table.mini td{white-space:normal;border-bottom:1px solid var(--line)}table.mini tr:last-child th,table.mini tr:last-child td{border-bottom:0}
+table.pk th{background:var(--warm);color:#7a4a00;width:45%}table.pk td a{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600;text-decoration:none}
+table.pk td a:hover{color:var(--brand-2)}
+@media (max-width:640px){table.mini,table.mini tbody,table.mini tr,table.mini th,table.mini td{display:block;width:100%}
+table.mini tr{display:block;padding:0;margin:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent}
+table.mini th,table.mini td{border:0;padding:8px 12px}table.mini td{background:var(--card)!important}}
+.ilead{font-weight:700;margin:12px 0 0}
+.pbox{display:flex;gap:16px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:14px;margin:14px 0 6px;background:#fff}
+.pbox .iimg{border:0;padding:0}.pbox .btn{margin-top:10px}
+.mm{display:grid;grid-template-columns:1fr 1fr;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin:12px 0 0}.mm.one{grid-template-columns:1fr}
+.mm>div>b{display:block;text-align:center;color:#fff;padding:8px;font-size:.9rem}.mm ul{margin:0;padding:10px 14px 12px 30px;font-size:.9rem}
+.mm li{padding:4px 0;border-bottom:1px dashed var(--line)}.mm li:last-child{border-bottom:0}
+.pros{background:#f0f8fc}.pros b{background:#5bb8dc}.pros li::marker{color:#5bb8dc}
+.cons{background:#fff5f0}.cons b{background:#f4a07a}.cons li::marker{color:#f4a07a}
+.totop{text-align:right;font-size:.8rem;margin:10px 0 0}.totop a{color:var(--muted)}.totop a::before{content:"↑ "}
+@media (max-width:560px){.pbox{flex-direction:column;align-items:stretch}.pbox .iimg{width:100%;height:150px}.mm{grid-template-columns:1fr}.pbox .btn{width:100%}}
+/* 運営者の自己紹介（トップページ） */
+.profile{margin-top:32px}.pf{display:flex;gap:18px;align-items:flex-start}
+.pf img{flex:none;width:96px;height:96px;border-radius:50%;border:3px solid var(--soft);background:#fff}
+.pf p{margin:0 0 6px;font-size:.95rem}.pname{font-weight:800;font-size:1.05rem!important}
+.pname span{font-weight:600;font-size:.78rem;color:var(--muted);margin-left:8px}.pf .more a{font-size:.85rem;font-weight:700}
+@media (max-width:480px){.pf{flex-direction:column;align-items:center;text-align:center}}
 /* 運営者情報など */
 .static .box{margin-top:20px}.static h1{font-size:1.5rem;margin-top:0}.static h2{font-size:1.1rem;margin-top:26px}
 .static table th{background:#f7f9fc;width:9em}.static table td{white-space:normal}.static .note{font-size:.85rem;color:var(--muted)}
