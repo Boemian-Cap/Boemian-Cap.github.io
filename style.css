@@ -50,7 +50,7 @@ td{padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;vert
 tbody tr:nth-child(even) td{background:#fbfcfe}tbody tr:hover td{background:var(--soft)}
 td.prod{white-space:normal;min-width:15em}td.prod a{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:600}
 td.prod img{width:44px;height:44px;object-fit:contain;border-radius:8px;background:#fff;border:1px solid var(--line);flex:none}
-td.price{font-weight:800;color:var(--ink)}.star{color:var(--star);margin-right:2px}
+td.price{font-weight:800;color:var(--ink)}.soldout{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:#fdecea;color:#a3271b;font-size:.72rem;font-weight:700;white-space:nowrap}.star{color:var(--star);margin-right:2px}
 .num{display:inline-grid;place-items:center;flex:none;width:26px;height:26px;border-radius:50%;background:var(--brand);color:#fff;font-size:.8rem;font-weight:800}
 table .btn{padding:7px 12px;font-size:.8rem}
 /* スマホでは表をやめ、1商品ずつ縦に並べる（横に動かさなくてもボタンまで画面に収まる） */
