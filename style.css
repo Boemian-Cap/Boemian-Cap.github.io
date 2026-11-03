@@ -95,6 +95,11 @@ font-size:.72rem;font-weight:800;display:grid;place-items:center;line-height:1}
 table.mini{border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.88rem;margin:4px 0 6px}
 table.mini th{background:var(--soft);color:var(--brand);white-space:normal;width:38%;font-size:.85rem;border-bottom:1px solid var(--line)}
 table.mini td{white-space:normal;border-bottom:1px solid var(--line)}table.mini tr:last-child th,table.mini tr:last-child td{border-bottom:0}
+table.mini.wide th,table.mini.wide td{width:auto;text-align:center}table.mini.wide tbody th{text-align:left}
+table.mini.wide thead th{background:var(--brand);color:#fff}
+.src{font-size:.82rem;color:var(--sub);margin:6px 0 2px}.src ul{margin:2px 0 0;padding-left:18px}
+.faq .qa{border-top:1px dashed var(--line);padding:10px 0 2px}.faq .qa:first-of-type{border-top:0;padding-top:0}
+.faq h3{font-size:1rem;margin:0 0 4px}.faq p{margin:0 0 6px;font-size:.93rem}
 table.pk th{background:var(--warm);color:#7a4a00;width:45%}table.pk td a{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600;text-decoration:none}
 table.pk td a:hover{color:var(--brand-2)}
 @media (max-width:640px){table.mini,table.mini tbody,table.mini tr,table.mini th,table.mini td{display:block;width:100%}
